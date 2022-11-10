@@ -1,0 +1,32 @@
+1)	Administrator
+(
+	ID,NAME.PASSWORD
+)
+2)	Doctor
+(
+	ID , NAME ,specialist , TIMING , DAYS, CITIES,AVAIBLE STATUS,PIC
+)
+3)	Patient
+(
+	id,USER NAME, adress ,PHONE NUMBER,  age , city, blood gorup  ,PASSWORD,EMAIL,CITIES
+)
+4)	Reports
+(
+	ID,REPORT TITTLE, USER ID, DATE TIME,DOCUMENTS
+)
+5) 	appointments 
+(
+	ID , APPOINTMNET PATIENT NAME , TIMING , DAYS , USER ID  , DOCTOR ID , APPOINTMNET DATE
+)
+
+6)	CITIES
+(
+	ID ,NAME
+)
+6)	FEEDBACK
+(
+	ID ,MASSAGE,PATIENT ID
+)
+	Customer Specifications:
+
+Website will host information about common Diseases, Preventions and Cures. It will also display the latest medical news and information on inventions in Medical Science.
